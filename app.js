@@ -37,4 +37,4 @@ routes(secureRoutes);
 app.listen(port);
 
 // logs on the server to know the api is ready
-console.log('\x1b[36m%s\x1b[0m', "Restful API Server started on :: ", port,"\n");
+console.log('\x1b[36m%s\x1b[0m', "Restful API Server started on :: ", port, "\n");

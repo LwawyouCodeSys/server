@@ -23,7 +23,6 @@ var auth = {
         var data = req.body || {};
         if(data.email.length > 0 && data.password.length > 0){
             var task = "SELECT * FROM user where email = '"+data.email+"' AND password='"+data.password+"';";
-            logs(task);
             mysql(task, function (results) {
                 if(results.length > 0){
                     res.status(200).json(auth.setToken({
@@ -41,8 +40,10 @@ var auth = {
     verify: function(req, res, next){
         var token = req.headers.authorization || req.headers["proxy-authorization"] || '';
         if(token){
-            jwt.verify(token.match(/Basic (.+)/)[1], secret, function(err, decoded){
+            var filter = token.match(/Basic (.+)/)[1];
+            jwt.verify(filter, secret, function(err, decoded){
                 if(err){
+                    logs("Invalid Token :: "+filter);
                     return res.status(401).json({
                         success: false, message: "Invalid token."
                     });
