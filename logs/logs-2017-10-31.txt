@@ -31,3 +31,7 @@ Tuesday, October 31, 2017 2:13 AM :: 		Query=>  UPDATE user SET deleted = '0 WHE
 Tuesday, October 31, 2017 2:14 AM :: 		Query=>  UPDATE user SET deleted = '0' WHERE where id = '2' 
 Tuesday, October 31, 2017 2:15 AM :: 		Query=>  UPDATE user SET deleted = '0' WHERE id = '2' 
 Tuesday, October 31, 2017 2:15 AM :: 		Query=>  SELECT * from user WHERE id = '2' 
+Tuesday, October 31, 2017 3:58 AM :: 		Query=>  UPDATE user SET deleted = 1 WHERE id = '2' 
+Tuesday, October 31, 2017 3:58 AM :: 		Query=>  SELECT * from user WHERE id = '2' 
+Tuesday, October 31, 2017 3:58 AM :: 		Query=>  SELECT * from user  
+Tuesday, October 31, 2017 3:58 AM :: 		Query=>  SELECT * from user  

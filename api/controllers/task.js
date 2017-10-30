@@ -23,3 +23,8 @@ exports.update = function(req, res){
     logs("Query=> ", task.query);
     database(task, res);
 }
+exports.delete = function(req, res){
+    var task = model.type(req);
+    logs("Query=> ", task.query);
+    database(task, res);
+}

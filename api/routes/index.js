@@ -4,6 +4,7 @@ module.exports = function(app){
     
     app.route('/tasks/:table')
         .get(tasks.read)
+        .delete(tasks.delete)
         .put(tasks.update)
         .post(tasks.post);
 

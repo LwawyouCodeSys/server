@@ -51,6 +51,11 @@ exports.type = function (req) {
             type: "table",
             query: "UPDATE "+ table + " SET " + value.join(",") + " " + where
         }
+    } else if (paramsArray[0].indexOf('table')>=0 && method == "DELETE") {
+        return {
+            type: "table",
+            query: "UPDATE "+ table + " SET deleted = 1 " + where
+        }
     } else if (paramsArray[0].indexOf('sp')>=0) {
         return {
             type: "sp",

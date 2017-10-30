@@ -9,3 +9,4 @@ Server Database API
  - must be GET
  - to update must be PUT
  - to insert must be POST
+ - to delete must be DELETE
