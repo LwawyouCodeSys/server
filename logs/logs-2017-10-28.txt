@@ -1,0 +1,28 @@
+Saturday, October 28, 2017 3:26 AM :: 		Query=>  SELECT * from address 
+Saturday, October 28, 2017 3:26 AM :: 		Query=>  SELECT * from address 
+Saturday, October 28, 2017 3:36 AM :: 		Query=>  SELECT * from address 
+Saturday, October 28, 2017 3:37 AM :: 		Query=>  CALL addition 
+Saturday, October 28, 2017 3:37 AM :: 		Query=>  CALL addition() 
+Saturday, October 28, 2017 3:38 AM :: 		Query=>  SELECT * from user 
+Saturday, October 28, 2017 3:41 AM :: 		Query=>  SELECT * from user where email='admin@gmail.com' AND password='12345' 
+Saturday, October 28, 2017 3:44 AM :: 		Query=>  CALL addition()( '1' , '2') 
+Saturday, October 28, 2017 3:44 AM :: 		Query=>  CALL addition( '1' , '2') 
+Saturday, October 28, 2017 3:45 AM :: 		Query=>  CALL addition( '4' , '2' ) 
+Saturday, October 28, 2017 3:47 AM :: 		Query=>  CALL addition( '4' , '2' ) 
+Saturday, October 28, 2017 3:47 AM :: 		Query=>  CALL addition 
+Saturday, October 28, 2017 3:48 AM :: 		Query=>  CALL addition() 
+Saturday, October 28, 2017 3:49 AM :: 		Query=>  SELECT * from address 
+Saturday, October 28, 2017 3:49 AM :: 		Query=>  SELECT * from address where id='4' 
+Saturday, October 28, 2017 3:49 AM :: 		Query=>  SELECT * from address where id='1' 
+Saturday, October 28, 2017 4:34 AM :: 		Query=>  SELECT * from  
+Saturday, October 28, 2017 4:35 AM :: 		Query=>  SELECT * from  
+Saturday, October 28, 2017 4:35 AM :: 		Query=>  SELECT * from  
+Saturday, October 28, 2017 4:35 AM :: 		Query=>  SELECT * from  
+Saturday, October 28, 2017 4:36 AM :: 		Query=>  SELECT * from address 
+Saturday, October 28, 2017 4:39 AM :: 		Query=>  SELECT fields=username,username from address 
+Saturday, October 28, 2017 4:39 AM :: 		Query=>  SELECT username from address 
+Saturday, October 28, 2017 4:40 AM :: 		Query=>  SELECT email,password from user 
+Saturday, October 28, 2017 4:40 AM :: 		Query=>  SELECT * from user 
+Saturday, October 28, 2017 4:40 AM :: 		Query=>  SELECT email,password from user 
+Saturday, October 28, 2017 4:40 AM :: 		Query=>  SELECT email,password from user where id='1' 
+Saturday, October 28, 2017 4:40 AM :: 		Query=>  SELECT email,password,id from user where id='1' 
