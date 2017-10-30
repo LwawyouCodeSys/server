@@ -1,0 +1,5 @@
+Monday, October 30, 2017 10:11 PM :: 		Query=>  SELECT * from user 
+Monday, October 30, 2017 10:12 PM :: 		Query=>  SELECT * from user where email='admin@gmail.com' AND password='12345' 
+Monday, October 30, 2017 11:53 PM :: 		Query=>  SELECT * from user where email='admin@gmail.com' AND password='12345' 
+Monday, October 30, 2017 11:54 PM :: 		Query=>  SELECT * from user 
+Monday, October 30, 2017 11:54 PM :: 		Query=>  SELECT * from user 

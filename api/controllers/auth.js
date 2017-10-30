@@ -38,7 +38,7 @@ var auth = {
         }
     },
     verify: function(req, res, next){
-        var token = req.headers.authorization || req.headers["proxy-authorization"] || '';
+        var token = req.headers["authorization"] || req.headers["proxy-authorization"] || '';
         if(token){
             var filter = token.match(/Basic (.+)/)[1];
             jwt.verify(filter, secret, function(err, decoded){

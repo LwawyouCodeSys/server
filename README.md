@@ -5,5 +5,7 @@ Server Database API
  - /auth must be POST
  - {email: "", password: ""}
 + Use the token
- - /api/tasks/table=user( OPTIONAL ";fields=columname,columname,....." )
- - can be GET|POST
+ - /api/tasks/table=user( OPTIONAL ";fields=columname,columname,....." ) ?columnname = value
+ - must be GET
+ - to update must be PUT
+ - to insert must be POST
